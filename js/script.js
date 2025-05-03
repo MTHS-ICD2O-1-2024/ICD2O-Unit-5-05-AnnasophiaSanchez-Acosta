@@ -6,7 +6,7 @@
 
 "use strict"
 
-function classifyTriangle() {
+function classTriangle() {
   // input
   const sideA = parseInt(document.getElementById("side-a").value)
   const sideB = parseInt(document.getElementById("side-b").value)
