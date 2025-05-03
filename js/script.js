@@ -33,21 +33,15 @@ function classTriangle () {
     // output
     document.getElementById('result').innerHTML =
       '<p>Oops, not a triangle :(</p>'
-  }
-  // process
-  else if (sideA === sideB && sideA === sideC && sideB === sideC) {
+  } else if (sideA === sideB && sideA === sideC && sideB === sideC) {
     // output
     document.getElementById('result').innerHTML =
       '<p>This is an equilateral triangle.</p>'
-  }
-  // process
-  else if (sideA === sideB || sideA === sideC || sideB === sideC) {
-    //output
+  } else if (sideA === sideB || sideA === sideC || sideB === sideC) {
+    // output
     document.getElementById('result').innerHTML =
       '<p>This is an isosceles triangle.</p>'
-  }
-  // process
-  else {
+  } else {
     // output
     document.getElementById('result').innerHTML =
       '<p>This is a scalene triangle.</p>'
