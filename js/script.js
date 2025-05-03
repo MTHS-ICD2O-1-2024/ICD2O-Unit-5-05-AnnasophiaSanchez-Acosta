@@ -29,13 +29,13 @@ function classTriangle() {
     Number(angleB.toFixed(2)) +
     Number(angleC.toFixed(2))
 
-  if (sumOfAngles != 180) {
+  if (sumOfAngles !== 180) {
     // output
     document.getElementById("result").innerHTML =
       "<p>Oops, not a triangle :(</p>"
   }
   // process
-  else if (sideA == sideB && sideA == sideC && sideB == sideC) {
+  else if (sideA === sideB && sideA === sideC && sideB === sideC) {
     // output
     document.getElementById("result").innerHTML =
       "<p>This is an equilateral triangle.</p>"
@@ -50,6 +50,6 @@ function classTriangle() {
   else {
     // output
     document.getElementById("result").innerHTML =
-      "<p>This is an scalene triangle.</p>"
+      "<p>This is a scalene triangle.</p>"
   }
 }
